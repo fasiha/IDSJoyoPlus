@@ -7,4 +7,6 @@ IDSgrep ([overview](http://tsukurimashou.sourceforge.jp/idsgrep.php.en), [manual
 
 This use of IDSgrep barely exercises its features. IDSgrep is essentially being used to look up characters in the [CJKVI Project](https://github.com/cjkvi/cjkvi-data)'s database of Chinese character components, which is included in IDSgrep.
 
-**Acknowledgements** Besides IDSgrep and CJKVI, as well as James Heisig's books for a sensible sorting order, I use Pádraig Brady's `ansi2html.sh` to preserve IDSgrep's colorized output in HTML.
+**Recommendation** Getting a font like [HanaMin](http://fonts.jp/hanazono/) with good support for obscure CJK Han Unicode points is advised, but not required since for characters outside the Unicode Basic Multilingual Plane, an SVG image is provided, courtesy of GlyphWiki.
+
+**Acknowledgements** Besides IDSgrep and CJKVI, as well as James Heisig's books for a sensible sorting order, I use SVGs from the free [GlyphWiki](http://en.glyphwiki.org) database to render Unicode characters frequently unavailable on standard fontpacks, as well as CDP (Chinese Document Processing Lab) characters which are apparently not available in Unicode.
